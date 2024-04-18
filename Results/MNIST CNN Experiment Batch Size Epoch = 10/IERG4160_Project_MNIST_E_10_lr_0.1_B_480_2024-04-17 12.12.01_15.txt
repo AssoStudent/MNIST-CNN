@@ -1,0 +1,27 @@
+
+        === IERG4160_Project_MNIST_E_10_lr_0.1_B_480 ===
+        IERG4160 Project Training
+        The experiment ID is: 15
+        The train start time is: 2024-04-17 12.12.01
+        The dataset is: MNIST
+
+        experiment_rounds = 64
+
+        modelType = MNIST_CNN_Model
+        optimizerType = SGD
+
+        num_epochs_list = [10]
+        learning_rate_list = [0.1]
+        batch_size_list = [32, 64, 96, 128, 160, 192, 224, 256, 288, 320, 352, 384, 416, 448, 480, 512, 544, 576, 608, 640, 672, 704, 736, 768, 800, 832, 864, 896, 928, 960, 992, 1024, 1056, 1088, 1120, 1152, 1184, 1216, 1248, 1280, 1312, 1344, 1376, 1408, 1440, 1472, 1504, 1536, 1568, 1600, 1632, 1664, 1696, 1728, 1760, 1792, 1824, 1856, 1888, 1920, 1952, 1984, 2016, 2048]
+        loss_func_list = [CrossEntropyLoss()]
+        accuracy_func_list = [<function get_accuracy at 0x000001C371C46950>]
+        error_func_list = [<function get_error at 0x000001C371C469E0>]
+
+        !-- Current Status --!
+        num_epochs = 10
+        learning_rate = 0.1
+        batch_size = 480
+        loss_func = CrossEntropyLoss()
+        accuracy_func = <function get_accuracy at 0x000001C371C46950>
+        error_func = <function get_error at 0x000001C371C469E0>
+        
