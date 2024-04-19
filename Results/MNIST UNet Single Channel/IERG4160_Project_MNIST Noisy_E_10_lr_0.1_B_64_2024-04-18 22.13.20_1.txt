@@ -1,0 +1,27 @@
+
+        === IERG4160_Project_MNIST Noisy_E_10_lr_0.1_B_64 ===
+        IERG4160 Project Training
+        The experiment ID is: 1
+        The train start time is: 2024-04-18 22.13.20
+        The dataset is: MNIST Noisy
+
+        experiment_rounds = 1
+
+        modelType = MNIST_UNet_Model_SingleChannel
+        optimizerType = SGD
+
+        num_epochs_list = [10]
+        learning_rate_list = [0.1]
+        batch_size_list = [64]
+        loss_func_list = [MSELoss()]
+        accuracy_func_list = [<function image_accuracy at 0x000001EDD5BC2980>]
+        error_func_list = [<function image_error at 0x000001EDD5BC2A20>]
+
+        !-- Current Status --!
+        num_epochs = 10
+        learning_rate = 0.1
+        batch_size = 64
+        loss_func = MSELoss()
+        accuracy_func = <function image_accuracy at 0x000001EDD5BC2980>
+        error_func = <function image_error at 0x000001EDD5BC2A20>
+        
